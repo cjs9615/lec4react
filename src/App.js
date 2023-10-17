@@ -7,8 +7,9 @@ import './App.css';
 // import MyCom from './03/MyCom';
 // import MyDiv from './03/MyDiv';
 // import Box from './04/Box';
-import Gallery from './08/Gallery';
+//import Gallery from './08/Gallery';
 //import Busan from './09/Busan';
+import RouteMain from './10/RouteMain';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
   //<Frcst/>
   //<Taccident/>
   //<MyRef/>
-  <Gallery/>
+  //<Gallery/>
   //<Busan/>
+  <RouteMain/>
   );
 }
 
