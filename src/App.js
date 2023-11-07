@@ -9,7 +9,10 @@ import './App.css';
 // import Box from './04/Box';
 //import Gallery from './08/Gallery';
 //import Busan from './09/Busan';
-import RouteMain from './10/RouteMain';
+//import RouteMain from './10/RouteMain';
+//import Fcst from './12/Fcst';
+import DivMain from './14/DivMain';
+import { RecoilRoot } from 'recoil';
 
 function App() {
   return (
@@ -23,7 +26,11 @@ function App() {
   //<MyRef/>
   //<Gallery/>
   //<Busan/>
-  <RouteMain/>
+  //<RouteMain/>
+  //<Fcst/>
+  <RecoilRoot>
+    <DivMain/>
+  </RecoilRoot>
   );
 }
 

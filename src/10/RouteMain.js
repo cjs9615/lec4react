@@ -8,11 +8,15 @@ const RouteMain = () => {
     return (
         <main className="container">
         <BrowserRouter>
-            <RouteNav/>
+            
+                <h1 className="text-2xl font-bold text-center mx-5 my-10">react dom 라우팅</h1>
+                <RouteNav/>
+            
+            
             <Routes>
                 
                 <Route path="/" element={<RouteHome/>}></Route>
-                <Route path="/page1" element={<RoutePage1/>}></Route>
+                <Route path="/page1/:item" element={<RoutePage1/>}></Route>
                 <Route path="/page2" element={<RoutePage2/>}></Route>
             </Routes>
         </BrowserRouter>

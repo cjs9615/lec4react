@@ -1,10 +1,11 @@
-
+import { useParams } from "react-router-dom"
 const RoutePage1 = () => {
-  return (
-    <article>
-      Page1
-    </article>
-  )
+    const item = useParams().item;
+    return (
+        <article>
+            Page : {item}
+        </article> 
+    )
 }
 
 export default RoutePage1
