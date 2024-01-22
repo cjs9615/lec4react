@@ -11,9 +11,9 @@ import './App.css';
 //import Busan from './09/Busan';
 //import RouteMain from './10/RouteMain';
 //import Fcst from './12/Fcst';
-import DivMain from './14/DivMain';
-import { RecoilRoot } from 'recoil';
-
+// import DivMain from './14/DivMain';
+// import { RecoilRoot } from 'recoil';
+import Login from './15/Login';
 function App() {
   return (
   //<Clock />
@@ -28,9 +28,10 @@ function App() {
   //<Busan/>
   //<RouteMain/>
   //<Fcst/>
-  <RecoilRoot>
-    <DivMain/>
-  </RecoilRoot>
+  // <RecoilRoot>
+  //   <DivMain/>
+  // </RecoilRoot>
+  <Login/>
   );
 }
 
